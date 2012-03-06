@@ -1,0 +1,91 @@
+/*
+Syntax error: File to import not found or unreadable: notfound.
+              Load paths:
+                Compass::SpriteImporter
+                /mangla/sites/ticketee/public/stylesheets/sass
+                /mangla/sites/ticketee/app/assets/stylesheets
+                /home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets
+                /home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/compass/stylesheets
+        on line 15 of /mangla/sites/ticketee/public/stylesheets/sass/comments.scss
+
+10: // in our CSS
+11: 
+12: #sidebar {
+13:   color: #336699; }
+14:   
+15:  @import "notfound"
+
+Backtrace:
+/mangla/sites/ticketee/public/stylesheets/sass/comments.scss:15
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/import_node.rb:42:in `import'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/import_node.rb:25:in `imported_file'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/perform.rb:147:in `rescue in visit_import'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/perform.rb:152:in `visit_import'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/tree/root_node.rb:20:in `render'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/engine.rb:300:in `_render'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/engine.rb:248:in `block in render'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/util.rb:297:in `silence_sass_warnings'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/engine.rb:248:in `render'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:319:in `update_stylesheet'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:181:in `block (2 levels) in update_stylesheets'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:175:in `each'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:175:in `block in update_stylesheets'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:173:in `each'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/plugin/compiler.rb:173:in `update_stylesheets'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/plugin.rb:81:in `update_stylesheets'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/plugin.rb:54:in `check_for_updates'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/plugin/rack.rb:51:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/warden-1.1.0/lib/warden/manager.rb:35:in `block in call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/warden-1.1.0/lib/warden/manager.rb:34:in `catch'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/warden-1.1.0/lib/warden/manager.rb:34:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/conditionalget.rb:25:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/query_cache.rb:62:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/nikhil/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/home/nikhil/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/home/nikhil/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: notfound.\A               Load paths:\A                 Compass::SpriteImporter\A                 /mangla/sites/ticketee/public/stylesheets/sass\A                 /mangla/sites/ticketee/app/assets/stylesheets\A                 /home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets\A                 /home/nikhil/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/compass/stylesheets\A         on line 15 of /mangla/sites/ticketee/public/stylesheets/sass/comments.scss\A \A 10: // in our CSS\A 11: \A 12: #sidebar {\A 13:   color: #336699; }\A 14:   \A 15:  @import \"notfound\""; }

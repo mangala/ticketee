@@ -1,0 +1,12 @@
+/* Hey look at this multiline comment
+ * that we want to show up in our CSS
+ * output. */
+/* line 5, ../../../app/assets/stylesheets/sass/comments.scss */
+#page {
+  color: black;
+}
+
+/* line 12, ../../../app/assets/stylesheets/sass/comments.scss */
+#sidebar {
+  color: #336699;
+}

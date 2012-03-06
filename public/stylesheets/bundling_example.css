@@ -1,0 +1,11 @@
+/* line 4, sass/bundling_example.sass */
+#page {
+  color: #336699;
+  width: 720px;
+}
+
+/* line 8, sass/bundling_example.sass */
+#sidebar {
+  color: #264c73;
+  width: 144px;
+}

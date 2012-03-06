@@ -1,0 +1,14 @@
+<%#= stylesheet_link_tag "/public/stylesheets/application.scss" %>
+
+<%#= link_to "New Project", new_project_path %>
+<%= admins_only do %>
+<div class="main"><%= link_to "New Project", new_project_path %></div>
+<% end %>
+
+
+<div class="main">Projects</div>
+<ul>
+  <% @projects.each do |project| %>
+    <div class="main"> <li><%= link_to project.name, project %></li></div>
+  <% end %>
+</ul>

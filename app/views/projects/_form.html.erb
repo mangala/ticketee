@@ -1,0 +1,8 @@
+<%= form_for(@project) do |f| %>
+  <p>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.error_messages %>
+  </p>
+  <%= f.submit %>
+<% end %>

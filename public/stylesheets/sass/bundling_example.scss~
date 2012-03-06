@@ -1,0 +1,15 @@
+@import "colors";
+@import "widths";
+#page {
+  color: $main_color;
+  width: $main_width; }
+#sidebar {
+  color: darken($main_color, 10%);
+  width: $main_width*0.2; }
+This compiles to:
+#page {
+  color: #336699;
+  width: 720px; }
+#sidebar {
+  color: #264c73;
+  width: 144px; }

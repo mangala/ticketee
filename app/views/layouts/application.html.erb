@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<div  id='nav'>
+<title>
+  <% if content_for?(:title) %>
+    <%= yield(:title) %>
+  <% else %>
+    Ticketee
+  <% end %>
+</title>
+
+
+ 
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<% flash.each do |key, value| %>
+  <div class='flash' id='<%= key %>'>
+    <%= value %>
+  </div>
+<% end %>
+
+
+<h1><%= link_to "Ticketee", root_path %></h1>
+<%#= yield %>
+
+<%= admins_only do %>
+<%= link_to "Admin", admin_root_path %><br>
+<% end %>
+
+
+<%= yield %>
+</body>
+
+</html>
+
+
+
+
+
+
